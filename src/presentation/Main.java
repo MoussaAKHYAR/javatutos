@@ -23,17 +23,13 @@ public class Main {
 
 
         IEtudiant ietudiant = new EtudiantImpl();
-        etudiant.setId(1);
-        etudiant.setNom("akhyar");
-        etudiant.setPrenom("Moussa");
+
+        etudiant.setNom("Sy");
+        etudiant.setPrenom("Coumba");
         etudiant.setSalaire(15000000);
-
-
 
         ietudiant.add(etudiant);
 
-        Etudiant ok = ietudiant.add(etudiant);
 
-        System.out.println(ok.getPrenom());
     }
 }

@@ -5,13 +5,13 @@ public class Etudiant {
     private int id;
     private String nom;
     private String prenom;
-    private double salaire;
+    private int salaire;
 
-    public double getSalaire() {
+    public int getSalaire() {
         return salaire;
     }
 
-    public void setSalaire(double salaire) {
+    public void setSalaire(int salaire) {
         this.salaire = salaire;
     }
 
@@ -20,7 +20,7 @@ public class Etudiant {
     public Etudiant(){
     }
 
-    public Etudiant(int idE, String nomE, String prenomE, double salaireE) {
+    public Etudiant(int idE, String nomE, String prenomE, int salaireE) {
         this.id = idE;
         this.nom = nomE;
         this.prenom = prenomE;
